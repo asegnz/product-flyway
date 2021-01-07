@@ -11,9 +11,9 @@ public class FlywayUtil {
         final String user = "postgres";
         final String password = "password";
         Map<String, String> map = new HashMap<>();
-        //map.put("flyway.baselineVersion", "1000");
+        map.put("flyway.baselineVersion", "1000");
         Flyway flyway = Flyway.configure().dataSource(url, user, password).configuration(map).load();
         flyway.clean();
-        //flyway.baseline();
+        flyway.baseline();
     }
 }
