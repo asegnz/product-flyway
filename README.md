@@ -1,5 +1,6 @@
 # product-flyway
 Aplicación de ejemplo que sirve como base al tutorial de la `refactorización con Flyway` de adictosaltrabajo.com. 
+Puedes encontrar el tutorial en [la siguiente página web](https://www.adictosaltrabajo.com/2021/01/18/refactorizar-con-flyway/)
 
 # Iniciar la aplicación
 Ejecutar los siguientes comandos de forma secuencial
@@ -19,6 +20,3 @@ Ir a la carpeta de la aplicación generada:
 Levantar la aplicación:
 
 ```java -jar product-flyway-0.0.1-SNAPSHOT.jar```
-
-# Pendiente:
-* Indicar enlace al tutorial de adictosaltrabajo.com
